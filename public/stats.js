@@ -8,11 +8,10 @@ fetch("/api/workouts/range")
     populateChart(data);
   });
 
+API.getWorkoutsInRange();
 
-API.getWorkoutsInRange()
-
-  function generatePalette() {
-    const arr = [
+function generatePalette() {
+  const arr = [
     "#003f5c",
     "#2f4b7c",
     "#665191",
@@ -29,10 +28,10 @@ API.getWorkoutsInRange()
     "#f95d6a",
     "#ff7c43",
     "ffa600"
-  ]
+  ];
 
   return arr;
-  }
+}
 function populateChart(data) {
   let durations = duration(data);
   let pounds = calculateTotalWeight(data);
@@ -47,15 +46,7 @@ function populateChart(data) {
   let lineChart = new Chart(line, {
     type: "line",
     data: {
-      labels: [
-        "Sunday",
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday",
-        "Saturday"
-      ],
+      labels: ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
       datasets: [
         {
           label: "Workout Duration In Minutes",
@@ -95,15 +86,7 @@ function populateChart(data) {
   let barChart = new Chart(bar, {
     type: "bar",
     data: {
-      labels: [
-        "Sunday",
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday",
-        "Saturday",
-      ],
+      labels: ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
       datasets: [
         {
           label: "Pounds",
@@ -218,6 +201,6 @@ function workoutNames(data) {
       workouts.push(exercise.name);
     });
   });
-  
+
   return workouts;
 }
