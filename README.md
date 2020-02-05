@@ -16,6 +16,6 @@ When a user loads the page, they are given an option to create a new workout or 
 
 A consumer will reach their fitness goals quicker when they track their workout progress.
 
-![create a new workout](public\ss1.PNG)
-![add an exercise](public\ss2.PNG)
-![workout dashboard](public\ss3.PNG)
+![create a new workout](public/ss1.png)
+![add an exercise](public/ss2.png)
+![workout dashboard](public/ss3.png)
