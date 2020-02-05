@@ -14,7 +14,7 @@ When a user loads the page, they are given an option to create a new workout or 
 
 ## Business Context
 
-A consumer will reach their fitness goals quicker when they track their workout progress.
+A consumer will reach their fitness goals quicker when they track their workout progress. This app is deployed on [Heroku](https://track-workout.herokuapp.com).
 
 ![create a new workout](public/ss1.png)
 ![add an exercise](public/ss2.png)
