@@ -15,7 +15,9 @@ As a user, I want to be able to view, create and track daily workouts. I want to
 ## Business Context
 
 A consumer will reach their fitness goals quicker when they track their workout progress. This app is deployed on [Heroku](https://track-workout.herokuapp.com).
-
+---
 ![create a new workout](public/ss1.png)
+---
 ![add an exercise](public/ss2.png)
+---
 ![workout dashboard](public/ss3.png)
